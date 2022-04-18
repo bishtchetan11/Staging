@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: example-app
-        image: docker.io/aimvector/python:1.0.3
+        image: docker.io/aimvector/python:1.0.3 # {"$imagepolicy": "flux-system:stagingimageupdate"}
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
